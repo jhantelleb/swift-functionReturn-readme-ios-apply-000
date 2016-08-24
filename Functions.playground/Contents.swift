@@ -31,8 +31,8 @@ func birthdayGreeting(age: Int) -> String {
     return "Happy birthday #\(age)!"
 }
 
-var greeting = birthdayGreeting(30)
-print(greeting)
+/*var greeting = birthdayGreeting(30)
+print(greeting)*/
 
 
 func getAgeAndCongratulate(name: String) -> Int {
@@ -43,3 +43,12 @@ func getAgeAndCongratulate(name: String) -> Int {
 
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
+
+let friend3 = "Earl"
+var friend3Age = getAgeAndCongratulate(friend3)
+
+var greeting = birthdayGreeting(28)
+print(greeting)
+
+var age = getAgeAndCongratulate("LJ")
+print(age)
